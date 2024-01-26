@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1{
+    background: black;
+    color:white;
+    padding: 5;
+    font-weight:bold;
+    font-size:3rem;
+    text-align: center;
+}
+input{
+    border:solid 5px;
+    border-radius: 5px;
+
+}
+#add{
+    background-color: greenyellow;
+    color:black;
+    padding: 4px 2px 4px 2px;
+    margin: 5px;
+    font-weight: bold;
+    border: solid black ;
+    border-radius: 5px;
+
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+h5,h2{
+    font-weight: bold;
+    font-size: x-large;
+}
+#delete{
+    background-color: red;
+    color:black;
+    padding: 4px 2px 4px 2px;
+    margin: 5px;
+    font-weight: bold;
+    border: solid black ;
+    border-radius: 5px;
+}
+#delete:hover{
+    background-color: aquamarine;
+    
+}
